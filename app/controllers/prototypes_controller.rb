@@ -15,7 +15,7 @@ class PrototypesController < ApplicationController
     @prototype = Prototype.new(prototype_params)
     # @prototype.valid?
     # @prototype.save
-    if @prototype.save   
+    if @prototype.save
       # Prototype.create(prototype_params)
       redirect_to root_path
     else
